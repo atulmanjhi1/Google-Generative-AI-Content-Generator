@@ -3,7 +3,7 @@ import google.generativeai as gpt
 
 prompt = input("ASK to Atul Manjhi:")
 
-gpt.configure(api_key='AIzaSyDzeLERYL7HHJwJvSofAUjVT1H3YUojd_8')
+gpt.configure(api_key='Your_API_Key')
 
 geminipro = gpt.GenerativeModel('gemini-pro')
 
